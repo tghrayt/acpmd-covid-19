@@ -41,7 +41,7 @@ class information extends React.Component{
             <small className="text-muted"><a href="tel: 0602007900 ">
                 <Button outline color="secondary"> <i class="fab fa-whatsapp"></i>&nbsp;&nbsp;  0602007900 </Button>
             </a> </small>
-            &nbsp;&nbsp;&nbsp;&nbsp;    
+           
             <small className="text-muted"><a href="tel: 0767185150">
                 <Button outline color="secondary"> <i class="fab fa-whatsapp"></i>&nbsp;&nbsp;  0767185150</Button>
             </a> </small>

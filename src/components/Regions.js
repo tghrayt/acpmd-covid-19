@@ -47,7 +47,7 @@ function Regions({ regions }) {
   );
 
   return (
-    <Container>
+  
     <article className="py-4">
       <h1 className="py-2 font-bold text-3xl">
         <FormattedMessage id={KEYS.STATISTICS_BY_REGION}></FormattedMessage>
@@ -56,7 +56,7 @@ function Regions({ regions }) {
         <Table data={data} columns={columns}></Table>
       </div>
     </article>
-    </Container>
+   
   );
 }
 
@@ -81,6 +81,8 @@ function Table({ columns, data }) {
 
   return (
     <>
+    <Container>
+   
       <table {...getTableProps()} className="w-full table-auto">
         <thead className="">
           {headerGroups.map((headerGroup) => (
@@ -117,6 +119,7 @@ function Table({ columns, data }) {
           })}
         </tbody>
       </table>
+      </Container>
     </>
   );
 }
