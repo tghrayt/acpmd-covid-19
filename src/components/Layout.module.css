@@ -1,0 +1,21 @@
+.welcome{
+    background-color: rgb(231, 231, 231);
+}
+
+.image {
+    width: 200px;
+    margin-top: 5px;
+   
+  }
+  .Navimage {
+    width: 160px;
+    margin-top: 5px;
+   
+  }
+  .dot {
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
