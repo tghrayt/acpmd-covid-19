@@ -1,6 +1,4 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
-import { KEYS } from '../i18n';
 import LastUpdate from './LastUpdate';
 import {
   Card,
@@ -32,7 +30,7 @@ const Title = ({ lastUpdate }) => {
                     
                     <p>
                         <span className="text-gray-600">
-                           .هذا الموقع طورته  جمعية أطر إقليم ميدلت للتنمية  ، يقدم مستجدات رسمية لفيروس كورونا في المغرب
+                           هذا الموقع طورته  جمعية أطر إقليم ميدلت للتنمية  ، يقدم مستجدات رسمية لفيروس كورونا في المغرب
                             <br /> ⵎⴰⵖⴹⵢⵓ ⴰⴱⴰⵢⵓⵕ ⵏ ⵇⵓⵔⵓⵏⴰ ⵖ ⵜⴰⵎⵓⵔⵜ
                            
                         </span>

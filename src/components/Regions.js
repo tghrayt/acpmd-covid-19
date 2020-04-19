@@ -3,6 +3,7 @@ import { FormattedMessage } from 'react-intl';
 import { useSortBy, useTable } from 'react-table';
 import { ThemeContext } from 'styled-components';
 import { KEYS } from '../i18n';
+import {Container } from 'reactstrap';
 
 // TODO: Extract it in utils
 const stringTovariableName = (prefix, name) =>
@@ -46,6 +47,7 @@ function Regions({ regions }) {
   );
 
   return (
+    <Container>
     <article className="py-4">
       <h1 className="py-2 font-bold text-3xl">
         <FormattedMessage id={KEYS.STATISTICS_BY_REGION}></FormattedMessage>
@@ -54,8 +56,10 @@ function Regions({ regions }) {
         <Table data={data} columns={columns}></Table>
       </div>
     </article>
+    </Container>
   );
 }
+
 
 export default Regions;
 

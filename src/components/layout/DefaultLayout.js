@@ -9,7 +9,7 @@ import Header from '../Header';
 import Main from '../Main';
 import Numer from '../Extension/Numero';
 import Title from '../Title';
-import Inforr from '../Extension/Information';
+import Test from '../Extension/test';
 const Wrapper = styled.div`
   font-family: ${(props) =>
     props.lang.startsWith('ar') ? "'Amiri', serif" : "'Open Sans', sans-serif"};
@@ -40,7 +40,8 @@ function DefaultLayout({ children }) {
         <Main>{children}</Main>
         
          <Numer />
-         <Inforr />
+       
+         <Test />
         <Footer />
       </HelmetProvider>
     </Wrapper>
