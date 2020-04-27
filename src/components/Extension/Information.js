@@ -14,7 +14,7 @@ import {
 import image from '../../assets/img/t.jpg';
 import arr from '../../assets/img/u.jpg';
 import arrz from '../../assets/img/f.jpg';
-
+import yt from '../../assets/img/yt.jpg';
 class information extends React.Component{
 
     render() {
@@ -28,7 +28,7 @@ class information extends React.Component{
                               <br /> <br /> <br />
             <CardDeck>
       <Card className="border border-secondary">
-        <CardImg variant="top" src={image} />
+        <CardImg variant="top" src={yt} />
         <CardBody className="text-secondary">
           <CardTitle ><span className="h4 font-weight-bold mb-0 text-secondary">استشارة طبية</span></CardTitle>
           <CardText >

@@ -23,7 +23,7 @@ function App() {
   return (
     <di>
     <AppContext.Provider value={{ ...state, dispatch }}>
-    <NavBar></NavBar>
+       <NavBar />
       <I18nProvider locale={state.lang}>
         <ThemeProvider theme={state.theme === 'light' ? light : dark}>
         <GlobalStyles></GlobalStyles>
